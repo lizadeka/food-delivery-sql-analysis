@@ -25,7 +25,8 @@ The aim is to generate **business insights** about customer behavior, restaurant
 
 ### 1. Customer Insights  
 - Identified the **top 5 customers** by total orders.  
-- Analyzed **customers who ordered from more than 3 restaurants**.    
+- Analyzed **customers who ordered from more than 3 restaurants**.
+- lists all customers who have never placed an order.
 
 ### 2. Restaurant Performance  
 - Classified restaurants into categories:  
