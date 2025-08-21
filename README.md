@@ -1,2 +1,2 @@
 # food-delivery-sql-analysis
-SQL queries analyzing an online food delivery platform dataset
+End-to-end SQL project analyzing customer behavior, restaurant performance, and revenue trends.
