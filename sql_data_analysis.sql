@@ -379,7 +379,6 @@ select c.customer_name, cr.rest_count
     ;
     
 -- Query 29. Restaurant Revenue Leaderboard - We want to rank restaurants based on how much money they made. 
-
 with rest_revenue as
 (select mi.restaurant_id,
 	sum(mi.price * od.quantity) as total_revenue,
@@ -397,7 +396,6 @@ order by rr.total_revenue desc
 ;
 
 -- Query 30:Customers in a Specific City
-
 delimiter //
 create procedure customerincity(in city_name varchar(5))
 begin
@@ -409,7 +407,6 @@ delimiter ;
 call customerincity('Delhi');
 
 -- Query 31: Best-Selling Menu Items
-
 delimiter //
 create procedure bestsellingitems(in limit_num int)
 begin
@@ -426,7 +423,6 @@ delimiter ;
 call bestsellingitems(5);
 
 -- Query 32. Top N Customers by Orders - Task: Make a stored procedure that shows the top N customers based on how many orders they have placed.
-
 delimiter //
 create procedure customers_by_orders(in limit_num int)
 begin
@@ -445,7 +441,6 @@ delimiter ;
 call customers_by_orders(4);
 
 -- Query 33. First Order Date for Each Customer - Task: Make a stored procedure that shows when each customer placed their very first order.
-
 delimiter //
 create procedure first_order_of_customer()
 begin
@@ -460,7 +455,6 @@ delimiter ;
 call first_order_of_customer();
 
 -- Query 34:  Customer Signups Category - Task: Classify customers as “Early Bird” (signup before 2024), “Regular” (2024), or “New” (2025)
-
 select customer_id,
 		customer_name,
         case when year(signup_date) < 2024 then "Early Bird"
@@ -470,7 +464,6 @@ select customer_id,
 from customers;
 
 -- Query 35: Monthly Order Summary - Task: Build a CTE for monthly orders and then filter only months with >50 orders.
-
 with monthly_order_summary as
 ( select monthname(order_date) as month,
 		count(order_id) as total_orders
@@ -483,7 +476,6 @@ where total_orders > 50
 ;
 
 -- Query 36: Restaurants With More Items Than Avg - Task: Show restaurants that offer more menu items than the overall average.
-
 select r.restaurant_id,
 		r.restaurant_name,
         count(mi.item_id) as item_count
@@ -499,3 +491,22 @@ select count(item_id) as item_count
  group by restaurant_id
 ) as temp
 );
+
+-- Query 37: Restaurant Size Category -- Task: Based on menu items, mark restaurants as Small (<5 items), Medium (5–10), or Large (>10) and then count the restaurants in each category
+with categorized as (
+    select r.restaurant_id,
+           r.restaurant_name,
+           count(mi.item_id) as item_count,
+           case 
+               when count(mi.item_id) > 10 then 'Large'
+               when count(mi.item_id) between 5 and 10 then 'Medium'
+               else 'Small'
+           end as size_category
+    from restaurant r
+    join menu_items mi on mi.restaurant_id = r.restaurant_id
+    group by r.restaurant_id, r.restaurant_name
+)
+select size_category, count(*) as restaurant_count
+from categorized
+group by size_category
+order by restaurant_count desc;
