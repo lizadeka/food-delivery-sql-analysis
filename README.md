@@ -26,19 +26,19 @@ The aim is to generate **business insights** about customer behavior, restaurant
 ### 1. Customer Insights  
 - Identified the **top 5 customers** by total orders.  
 - Analyzed **customers who ordered from more than 3 restaurants**.
-- lists all customers who have never placed an order.
+- Lists all customers who have never placed an order.
 
 ### 2. Restaurant Performance  
 - Classified restaurants into categories:  
   - **Small** (<5 items)  
   - **Medium** (5–10 items)  
   - **Large** (>10 items)  
-- Counted restaurants in each category and compared their order volumes.  
+- Cheapest menu items in all restaurants.  
 
 ### 3. Popular Items  
 - Found the **top 3 most frequently ordered items**.  
-- Checked which restaurants sell the **most popular dish**.  
-- Analyzed menu diversity vs concentrated demand.  
+- Checked which restaurants sell the **most popular dish**.
+- Found the **top 5 most expensive menu items**.
 
 ### 4. Revenue Analysis  
 - Tracked **monthly revenue trends**.  
@@ -59,7 +59,7 @@ The aim is to generate **business insights** about customer behavior, restaurant
 
 - 👥 **Customer Behavior**  
   - A small group of **power users** placed far more orders than average.  
-  - Some customers ordered from **8+ restaurants**, showing variety-seeking.  
+  - Some customers ordered from **5+ restaurants**, showing variety-seeking.  
 
 - 🍽️ **Restaurant Insights**  
   - Most restaurants are **Medium-sized (5–10 items)**.  
