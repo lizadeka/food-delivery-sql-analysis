@@ -57,18 +57,16 @@ The aim is to generate **business insights** about customer behavior, restaurant
  
 ## 📊 Key Metrics Summary
 
-Total Orders: Analyzed 1,261 orders, forming the basis of the study.
+- Total Revenue: The platform generated ₹2,801,221.08 across all cities.
 
-Total Revenue: The platform generated ₹2,801,221.08 across all cities.
+- Average Order Value (AOV): On average, customers spent ₹2,221.43 per order.
 
-Average Order Value (AOV): On average, customers spent ₹2,221.43 per order.
+- Top Performing City: Chennai contributed the highest revenue of ₹349,264.89, making it the most lucrative market.
 
-Top Performing City: Chennai contributed the highest revenue of ₹349,264.89, making it the most lucrative market.
+- Most Frequent Customers: The most loyal customers placed 4–5 orders, forming the largest repeat-buyer group.
 
-Most Frequent Customers: The most loyal customers placed 4–5 orders, forming the largest repeat-buyer group.
+- One-Time Customers: 64 customers made only a single purchase, indicating scope for re-engagement strategies.
 
-One-Time Customers: 64 customers made only a single purchase, indicating scope for re-engagement strategies.
+- Peak Order Month: July had the highest order volume, suggesting a strong seasonal demand trend.
 
-Peak Order Month: July had the highest order volume, suggesting a strong seasonal demand trend.
-
-Restaurant Performance: Medium-sized restaurants (5–10 items) attracted the highest number of orders, showing that focused menus outperform very small or very large menus.
+- Restaurant Performance: Medium-sized restaurants (5–10 items) attracted the highest number of orders, showing that focused menus outperform very small or very large menus.
