@@ -23,35 +23,29 @@ The aim is to generate **business insights** about customer behavior, restaurant
 
 ## 🔎 SQL Analysis Performed
 
-### 1. Customer Insights  
-- Identified the **top 5 customers** by total orders.  
-- Analyzed **customers who ordered from more than 3 restaurants**.
-- Lists all customers who have never placed an order.
+1. **Customer Insights**  
+   - Identified **Top 5 customers** by total orders.  
+   - Analyzed customers ordering from **more than 3 restaurants**.  
+   - Listed **inactive customers** who never placed an order.  
 
-### 2. Restaurant Performance  
-- Classified restaurants into categories:  
-  - **Small** (<5 items)  
-  - **Medium** (5–10 items)  
-  - **Large** (>10 items)  
-- Cheapest menu items in all restaurants.  
+2. **Restaurant Performance**  
+   - Classified restaurants into: **Small (<5 items), Medium (5–10 items), Large (>10 items)**.  
+   - Identified the **cheapest menu item** across all restaurants.  
 
-### 3. Popular Items  
-- Found the **top 3 most frequently ordered items**.  
-- Checked which restaurants sell the **most popular dish**.
-- Found the **top 5 most expensive menu items**.
+3. **Popular Items**  
+   - Found the **Top 3 most frequently ordered dishes**.  
+   - Checked which restaurants sell the **most popular dish**.  
+   - Listed the **Top 5 most expensive menu items**.  
 
-### 4. Revenue Analysis  
-- Tracked **monthly revenue trends**.  
-- Found restaurants with the **highest revenue**.  
-- Calculated **average order value (AOV)**.  
+4. **Revenue Analysis**  
+   - Tracked **monthly revenue trends** to identify seasonal peaks.  
+   - Highlighted restaurants with the **highest revenue contribution**.  
+   - Calculated **Average Order Value (AOV)** across the platform.  
 
-### 5. Advanced Queries  
-- Ranked **top products per category** using `RANK()` + `PARTITION BY`.  
-- Segmented customers as:  
-  - Frequent  
-  - Occasional  
-  - One-time  
-- Used subqueries, window functions, and temp tables for complex analysis.  
+5. **Advanced SQL Techniques**  
+   - Ranked **top products per category** using `RANK() + PARTITION BY`.  
+   - Segmented customers into **Frequent, Occasional, and One-Time buyers**.  
+   - Applied **subqueries, window functions, CTEs, temp tables, views, and stored procedures** for in-depth analysis.  
 
 ---
  
