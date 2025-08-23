@@ -54,22 +54,21 @@ The aim is to generate **business insights** about customer behavior, restaurant
 - Used subqueries, window functions, and temp tables for complex analysis.  
 
 ---
+ 
+## 📊 Key Metrics Summary
 
-## 📌 Key Insights  
+Total Orders: Analyzed 1,261 orders, forming the basis of the study.
 
-- 👥 **Customer Behavior**  
-  - A small group of **power users** placed far more orders than average.  
-  - Some customers ordered from **5+ restaurants**, showing variety-seeking.  
+Total Revenue: The platform generated ₹2,801,221.08 across all cities.
 
-- 🍽️ **Restaurant Insights**  
-  - Most restaurants are **Medium-sized (5–10 items)**.  
-  - Large restaurants (>10 items) don’t dominate sales.  
+Average Order Value (AOV): On average, customers spent ₹2,221.43 per order.
 
-- 🍜 **Popular Items**  
-  - **Momos, Fish Curry, and Aloo Paratha** are the top 3 dishes.  
-  - These represent comfort foods with **broad appeal**.  
+Top Performing City: Chennai contributed the highest revenue of ₹349,264.89, making it the most lucrative market.
 
-- 💰 **Revenue Trends**  
-  - Revenue grows steadily, with **spikes during festivals/weekends**.  
-  - **20% of restaurants contribute to ~80% of sales** .  
-  - **Average Order Value** is stable → consistent spending habits.  
+Most Frequent Customers: The most loyal customers placed 4–5 orders, forming the largest repeat-buyer group.
+
+One-Time Customers: 64 customers made only a single purchase, indicating scope for re-engagement strategies.
+
+Peak Order Month: July had the highest order volume, suggesting a strong seasonal demand trend.
+
+Restaurant Performance: Medium-sized restaurants (5–10 items) attracted the highest number of orders, showing that focused menus outperform very small or very large menus.
