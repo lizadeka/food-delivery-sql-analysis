@@ -57,3 +57,9 @@ The aim is to generate **business insights** about customer behavior, restaurant
 - **One-Time Customers:** **64 customers** made only a single purchase, indicating scope for re-engagement strategies.  
 - **Peak Order Month:** **July** had the highest order volume, suggesting a strong seasonal demand trend.  
 - **Restaurant Performance:** **Medium-sized restaurants (5–10 items)** attracted the highest number of orders, showing that focused menus outperform very small or very large menus.  
+
+## About Me  
+👋 Hi, I'm Liza Deka — a data enthusiast.  
+   I enjoy building projects, analyzing real-world data, and sharing insights through GitHub and LinkedIn. 
+   
+  📬 Let’s Connect: <a href="https://www.linkedin.com/in/liza-deka-869473369/">LinkedIn</a>
